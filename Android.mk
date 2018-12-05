@@ -13,6 +13,5 @@ ifeq ($(TARGET_ARCH_ABI),x86)
 endif
 
 LOCAL_LDLIBS := -lz
-LOCAL_STATIC_LIBRARIES +=  libstlport
 
-include $(BUILD_STATIC_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)
